@@ -1,0 +1,11 @@
+Model Information:
+* title:	Demogorgon
+* source:	https://sketchfab.com/3d-models/demogorgon-50d39d2b852247eb904d8b4c8051743d
+* author:	joshuagoldenburgh (https://sketchfab.com/joshuagoldenburgh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Demogorgon" (https://sketchfab.com/3d-models/demogorgon-50d39d2b852247eb904d8b4c8051743d) by joshuagoldenburgh (https://sketchfab.com/joshuagoldenburgh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
