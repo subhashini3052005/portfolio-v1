@@ -5,6 +5,7 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 
 const Model = () => {
+  
   return (
     <Canvas camera={{position:[80,20,70],fov:15}}>
       <ambientLight/>
@@ -14,8 +15,6 @@ const Model = () => {
         </Suspense>
         <Environment preset='forest'/>
     </Canvas>
-    
-
   )
 }
 export default Model;
