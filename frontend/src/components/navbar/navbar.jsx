@@ -10,13 +10,13 @@ const Navbar = () => {
         <div className='flex justify-between px-20 py-5 mx-auto text-white'>
             <img src= {Name} alt="Stranger" className='h-15 drop-shadow-[0_10px_10px_rgba(220,38,38,1)]' />
 
-            <ul className='hidden md:flex gap-8 pt-5 uppercase tracking-[0.05em]'>
-                <li><a href="#home" className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Home</a></li>
-                <li><a href="#about"  className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>About</a></li>
-                <li><a href="#skills"  className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Skills</a></li>
-                <li><a href="" className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Resume</a></li>
-                <li><a href="#projects" className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Projects</a></li>
-                <li><a href="#contacts" className='hover:bg-red-800 p-2 rounded-lg drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Contacts</a></li>
+            <ul className='hidden md:flex gap-3 pt-5 uppercase tracking-[0.05em]'>
+                <li><a href="#home" className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Home</a></li>
+                <li><a href="#about"  className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>About</a></li>
+                <li><a href="#skills"  className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Skills</a></li>
+                <li><a href="" className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Resume</a></li>
+                <li><a href="#projects" className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Projects</a></li>
+                <li><a href="#contacts" className='hover:bg-red-800 px-5 py-2 rounded-full drop-shadow-[0_0px_10px_rgba(220,38,38,1)] transition'>Contacts</a></li>
             </ul>
 
             <button onClick={()=>setopen(!open)}className='md:hidden'>

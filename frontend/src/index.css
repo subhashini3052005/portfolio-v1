@@ -26,3 +26,25 @@
 html{
     scroll-behavior: smooth;
 }
+.particles{
+    position: absolute;
+    background: rgba(220, 240, 255, 0.9);
+    border-radius: 9999px;
+    filter: blur(0.6px);
+    pointer-events: none;
+    animation: snowfall linear infinite;
+}
+@keyframes snowfall {
+    0%{
+        transform: translateX(0) translateY(0);
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.8;
+    }
+    100%{
+        transform: translateY(-120vh) translateX(30px);
+        opacity: 0.4;
+
+    }
+}
