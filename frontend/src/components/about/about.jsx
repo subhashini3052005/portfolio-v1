@@ -18,7 +18,7 @@ import Floating from './floating'
     <div className='flex w-full md:px-14 px-6 items-stretch flex-col max-w-7xl md:flex-row gap-30 mt-20'>
 
     <div className='relative group hover:scale-105 transistion duration-300 text-cyan-200 w-full items-center px-10 py-12 max-w-3xl  border border-cyan-500/25 shadow-[0_0_40px_rgba(15,23,42,0.9),0_0_70px_rgba(34,211,238,0.15)] bg-[#02040f]/80 backdrop-blur rounded-md flex flex-col'>
-    <p className='uppercase tracking-[0.35em] text-xs text-cyan-400/40'>Subject Monitoring — Online</p>
+    <p className='uppercase tracking-[0.35em] text-xs text-cyan-400/40 text-center'>Subject Monitoring — Online</p>
 
     <div className='w-36 h-36 flex items-center justify-center relative mt-5'>
 

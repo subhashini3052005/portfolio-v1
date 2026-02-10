@@ -4,14 +4,14 @@ import React from 'react'
   return (
 
     <div className='bg-gradient-to-b from-[#02040f] via-[#0A1A2F] to-[#020B16]
-     text-cyan-200 py-24 flex relative flex-col overflow-hidden items-center font-mono '>
+     text-cyan-200 py-12 flex relative flex-col overflow-hidden items-center font-mono '>
 
         <div className='relative flex flex-col items-center w-full'>
 
             <h1 className='uppercase md:text-6xl text-4xl tracking-widest
              font-extralight drop-shadow-[0_0_18px_rgba(34,211,238,0.35)] text-cyan-200'>dimension shift</h1>
 
-            <p className='text-cyan-400/60 mt-4 text-sm font-semibold'>Logged dimensional breaches caused by applied engineering skills</p>
+            <p className='text-cyan-400/60 mt-4 text-sm font-semibold text-center'>Logged dimensional breaches caused by applied engineering skills</p>
 
             <div className='flex items-start mt-20 gap-12 '>
                 <div className='flex-col flex items-center '>

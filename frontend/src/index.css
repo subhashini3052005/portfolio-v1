@@ -48,3 +48,11 @@ html{
 
     }
 }
+.bubble{
+     position: absolute;
+    background: rgba(233, 12, 5, 0.527);
+    border-radius: 9999px;
+    filter: blur(0.6px);
+    pointer-events: none;
+    animation: snowfall linear infinite;
+}
