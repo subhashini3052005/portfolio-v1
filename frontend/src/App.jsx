@@ -1,4 +1,5 @@
 import About from "./components/about/about"
+import Footers from "./components/footer/footer"
 import Hero from "./components/hero/hero"
 import Jobs from "./components/jobs/jobs"
 import Navbar from "./components/navbar/navbar"
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      
+
       <div id="home"> 
       <Hero/>
       </div>
@@ -29,6 +30,10 @@ function App() {
 
       <div id="skills">
         <Skills/>
+      </div>
+        
+      <div>
+       <Footers/>
       </div>
     </>
   )

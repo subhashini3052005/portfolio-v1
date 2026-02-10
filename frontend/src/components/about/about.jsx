@@ -7,7 +7,7 @@ import Floating from './floating'
  const About = () => {
   return (
     <section className='relative flex flex-col items-center bg-[#02040f] min-h-screen pb-20 overflow-hidden '>
-      <hr className='w-full h-[5px] relative rounded-full border-0 bg-[radial-gradient(circle_at_center,rgb(240,21,21),rgba(8,8,126,0.623))] mb-25'/>
+      <hr className='w-full h-[5px] relative rounded-full border-0 bg-[radial-gradient(circle_at_center,rgba(240,21,21,0.55),#02040f)] mb-25'/>
       
     <Floating/>
 
