@@ -4,7 +4,7 @@ import React from 'react'
   return (
 
     <div className='bg-gradient-to-b from-[#02040f] via-[#0A1A2F] to-[#020B16]
-     text-cyan-200 py-12 flex relative flex-col overflow-hidden items-center font-mono '>
+     text-cyan-200 py-20 flex relative flex-col overflow-hidden items-center font-mono '>
 
         <div className='relative flex flex-col items-center w-full'>
 

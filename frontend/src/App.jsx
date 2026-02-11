@@ -1,3 +1,4 @@
+import Contact from "./components/contact/contact"
 import About from "./components/about/about"
 import Footers from "./components/footer/footer"
 import Hero from "./components/hero/hero"
@@ -30,6 +31,10 @@ function App() {
 
       <div id="skills">
         <Skills/>
+      </div>
+
+      <div id="contacts">
+        <Contact/>
       </div>
         
       <div>

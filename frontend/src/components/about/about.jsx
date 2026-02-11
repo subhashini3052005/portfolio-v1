@@ -6,18 +6,22 @@ import Floating from './floating'
 
  const About = () => {
   return (
-    <section className='relative flex flex-col items-center bg-[#02040f] min-h-screen pb-20 overflow-hidden '>
+    <section className='relative flex flex-col items-center bg-[#02040f] min-h-screen pb-30 overflow-hidden '>
       <hr className='w-full h-[5px] relative rounded-full border-0 bg-[radial-gradient(circle_at_center,rgba(240,21,21,0.55),#02040f)] mb-25'/>
       
     <Floating/>
 
-    <h1 className='text-cyan-100/80 border-cyan-500/20 bg-[#02040f]/60 drop-shadow-[0_0px_12px_rgba(34,211,238,0.6)] border rounded-full flex flex-row items-center gap-4 px-10 py-3 uppercase tracking-[0.2em] backdrop-blur  font-semibold '>About Me
+    <h1 className='uppercase md:text-6xl text-4xl tracking-widest font-mono
+             font-extralight drop-shadow-[0_0_18px_rgba(34,211,238,0.35)] text-cyan-200'> origin file</h1>
+
+    <h1 className='text-cyan-100/80 border-cyan-500/20 bg-[#02040f]/60 drop-shadow-[0_0px_12px_rgba(34,211,238,0.6)] border rounded-full flex flex-row items-center gap-4 px-10 py-3 uppercase tracking-[0.2em] backdrop-blur mt-6  font-semibold '>Know More
       <div className='w-3 h-3 bg-cyan-400/70 rounded-full animate-slowpulse'/>
     </h1> 
 
     <div className='flex w-full md:px-14 px-6 items-stretch flex-col max-w-7xl md:flex-row gap-30 mt-20'>
 
-    <div className='relative group hover:scale-105 transistion duration-300 text-cyan-200 w-full items-center px-10 py-12 max-w-3xl  border border-cyan-500/25 shadow-[0_0_40px_rgba(15,23,42,0.9),0_0_70px_rgba(34,211,238,0.15)] bg-[#02040f]/80 backdrop-blur rounded-md flex flex-col'>
+    <div className='relative group hover:scale-105 transistion duration-300 text-cyan-200 w-full items-center px-10 py-12 max-w-3xl  border border-cyan-500/25
+     shadow-[0_0_40px_rgba(15,23,42,0.9),0_0_70px_rgba(34,211,238,0.15)] bg-[#02040f]/80 backdrop-blur rounded-md flex flex-col'>
     <p className='uppercase tracking-[0.35em] text-xs text-cyan-400/40 text-center'>Subject Monitoring — Online</p>
 
     <div className='w-36 h-36 flex items-center justify-center relative mt-5'>
