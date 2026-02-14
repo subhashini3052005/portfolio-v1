@@ -53,7 +53,8 @@ import { useState } from 'react'
 
         <div className='flex md:flex-row flex-col gap-12 w-full justify-center items-center px-4 mt-10'>
 
-       <div className='screen-full md:w-2/4 cursor-grab h-[360px] md:screen-[480px]'>Model</div>
+       <div className='screen-full md:w-2/4 cursor-grab h-[480px] md:screen-[480px]'><Ck/>
+       </div>
 
        <form action="" onSubmit={onSubmit} className='relative group hover:scale-105 transistion duration-300 text-red-200 w-full gap-5
         items-center px-6 py-10 max-w-lg  border border-red-500/25 shadow-lg bg-red-900 backdrop-blur rounded-md flex flex-col'>
