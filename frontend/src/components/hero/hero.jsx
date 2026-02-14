@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative md:absolute md:inset-0 z-20 mt-10 md:mt-0" >
+      <div className="w-full h-[360px] md:h-full md:absolute md:inset-0 md:-left-20 z-20" >
         <Mode />
       </div>
     </div>
